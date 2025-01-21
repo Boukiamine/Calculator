@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatore by Boukiamine in youtube</title>
+</head>
+<body>
+    <div class="title">
+        <img src="calculator.py/Image/Title.png" alt="Title">
+    </div>
+    <div class="main-container">
+        <div class="calculator">
+            <div id="display"></div>
+            <div class="buttons">
+                <button class="button">(</button>
+                <button class="button">)</button>
+                <button class="button ac red">AC</button>
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button red">+</button>
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button red">-</button>
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button red">x</button>
+                <button class="button">0</button>
+                <button class="button">.</button>
+                <button class="button red">÷</button>
+                <button class="button red">=</button>
+            </div>
+        </div>
+        <a class="donate-button" onclick="toggleDonation()">Donate</a>
+        <div class="donation-options" id="donation-menu">
+            <h3>Support Us</h3>
+            <button class="donation-amount" onclick="openPaypal(1)">Donate 1€</button>
+            <button class="donation-amount" onclick="openPaypal(5)">Donate 5€</button>
+            <button class="donation-amount" onclick="openPaypal(10)">Donate 10€</button>
+            <button class="donation-amount" onclick="openPaypal(50)">Donate 50€</button>
+        </div>
+        <!-- Bouton YouTube -->
+        <a class="youtube-button" href="https://www.youtube.com/@BoukiAmine" target="_blank">My YouTube channel</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
